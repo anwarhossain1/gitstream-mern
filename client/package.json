@@ -17,7 +17,9 @@
     "re:start": "yarn rm:all && yarn install && yarn dev",
     "re:build": "yarn rm:all && yarn install && yarn build",
     "re:build-npm": "npm run rm:all && npm install && npm run build",
-    "dev:host": "vite --host"
+    "dev:host": "vite --host",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "engines": {
     "node": "20.x"
@@ -43,6 +45,15 @@
     "simplebar-react": "^3.2.6"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-essentials": "^8.3.5",
+    "@storybook/addon-interactions": "^8.3.5",
+    "@storybook/addon-links": "^8.3.5",
+    "@storybook/addon-onboarding": "^8.3.5",
+    "@storybook/blocks": "^8.3.5",
+    "@storybook/react": "^8.3.5",
+    "@storybook/react-vite": "^8.3.5",
+    "@storybook/test": "^8.3.5",
     "@types/node": "^22.5.0",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
@@ -60,8 +71,10 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-storybook": "^0.9.0",
     "eslint-plugin-unused-imports": "^3.2.0",
     "prettier": "^3.3.3",
+    "storybook": "^8.3.5",
     "typescript": "^5.5.4",
     "vite": "^5.4.2",
     "vite-plugin-checker": "^0.7.2"

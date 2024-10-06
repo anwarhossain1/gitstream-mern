@@ -5,7 +5,7 @@ module.exports = {
   root: true,
   env: { browser: true, es2020: true },
   plugins: ['perfectionist', 'unused-imports', '@typescript-eslint', 'prettier'],
-  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks', 'prettier'],
+  extends: ['airbnb', 'airbnb-typescript', 'airbnb/hooks', 'prettier', 'plugin:storybook/recommended'],
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 'latest',
