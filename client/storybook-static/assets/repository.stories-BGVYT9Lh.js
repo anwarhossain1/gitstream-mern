@@ -1,0 +1,3 @@
+import{j as t}from"./jsx-runtime-CkxqCPlQ.js";import"./index-DJO9vBfz.js";const n=()=>(console.log("hello"),t.jsx("div",{children:t.jsx("button",{type:"button",children:"Hello"})})),p=n;n.__docgenInfo={description:"",methods:[],displayName:"Repository"};const a={title:"components/Repository",component:p},o={args:{}};var e,s,r;o.parameters={...o.parameters,docs:{...(e=o.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  args: {}
+}`,...(r=(s=o.parameters)==null?void 0:s.docs)==null?void 0:r.source}}};const d=["RepositoryButton"];export{o as RepositoryButton,d as __namedExportsOrder,a as default};
