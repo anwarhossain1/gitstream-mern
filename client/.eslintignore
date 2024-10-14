@@ -1,36 +1,37 @@
 # Build directories
-build/*
-dist/*
-public/*
-**/out/*
-**/.next/*
-**/node_modules/*
+# build/*
+# dist/*
+# public/*
+# **/out/*
+# **/.next/*
+# **/node_modules/*
 
 # src/
-**/reportWebVitals.*
-**/service-worker.*
-**/serviceWorkerRegistration.*
-**/setupTests.*
+*
+# **/reportWebVitals.*
+# **/service-worker.*
+# **/serviceWorkerRegistration.*
+# **/setupTests.*
 
-# eslintrc
-**/.eslintrc.*
+# # eslintrc
+# **/.eslintrc.*
 
-# prettier
-**/.prettier.*
-**/prettier.config.*
+# # prettier
+# **/.prettier.*
+# **/prettier.config.*
 
-# next
-**/next.config.*
+# # next
+# **/next.config.*
 
-# vite
-**/vite.config.*
+# # vite
+# **/vite.config.*
 
-# tailwind
-**/postcss.config.*
-**/tailwind.config.*
+# # tailwind
+# **/postcss.config.*
+# **/tailwind.config.*
 
-# craco
-**/craco.config.*
+# # craco
+# **/craco.config.*
 
-# misc
-**/jsconfig.json
+# # misc
+# **/jsconfig.json

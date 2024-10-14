@@ -21,7 +21,9 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src"],
+  "include": [
+    "src/**/*" // Only include your source files
+  ],
   "exclude": ["node_modules"],
   "references": [
     {
