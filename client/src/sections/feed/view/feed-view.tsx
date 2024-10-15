@@ -3,15 +3,14 @@ import { useCallback, useState } from 'react';
 import Box from '@mui/material/Box';
 import Pagination from '@mui/material/Pagination';
 import Typography from '@mui/material/Typography';
-import Grid from '@mui/material/Unstable_Grid2';
 
-import { _products } from 'src/_mock';
 import { DashboardContent } from 'src/layouts/dashboard';
 
 import { ProductFilters } from '../product-filters';
-import { ProductItem } from '../product-item';
 import { ProductSort } from '../product-sort';
 
+import { feedData } from 'src/_mock/_feed';
+import FeedCards from '../feed-cards';
 import type { FiltersProps } from '../product-filters';
 
 // ----------------------------------------------------------------------
@@ -128,14 +127,7 @@ export function FeedView() {
           />
         </Box>
       </Box>
-
-      <Grid container spacing={3}>
-        {_products.map((product) => (
-          <Grid key={product.id} xs={12}>
-            <ProductItem product={product} />
-          </Grid>
-        ))}
-      </Grid>
+      <FeedCards items={feedData} />
       <Pagination count={10} color="primary" sx={{ mt: 8, mx: 'auto' }} />
     </DashboardContent>
   );
